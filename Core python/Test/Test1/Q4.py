@@ -1,0 +1,9 @@
+area = float(input('enter  area of one wall:'))
+interior_cost = float(input('enter interior painting cost per wall:' ))
+exterior_cost = float(input('enter exterior painting cost per wall:'))
+total_interior = area * interior_cost
+total_exterior = area * exterior_cost
+total_cost = total_interior+ total_exterior
+print('interior painting cost =',total_interior)
+print('exterior painting cost=',total_exterior)
+print('total painting cost=',total_cost)
